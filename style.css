@@ -16,6 +16,10 @@ body {
   background-color: black;
 }
 
+/* .ttlogo img {
+  margin: 30px 0 0 30px;
+} */
+
 .navbar-links ul {
   margin: 0;
   padding: 0;
@@ -70,28 +74,57 @@ a {
   color: blue
 }
 
-.layout {
+h1 {
+  text-align: center;
+  align-items: center;
+}
+
+.bio {
+  line-height: 1.8;
+  text-align: center;
+}
+
+.all-work {
   align-items: center;
   text-align: center;
+  background-color: #fafafa;
+  border: solid #cdd2d7;
+  border-width: 1px 0 1px;
 }
 
 .cat-quiz {
   font-size: 20px;
 }
+
+.contact-part {
+  display: block;
+  background-color: black;
+  padding: 25px;
+}
   
 h3 {
+  margin: 0 auto;
+  color: white;
+  font-size: 24px;
+  text-transform: uppercase;
+  display: block;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
   text-align: center;
-  align-items: center;
 }
 
-.bottom {
-   display: flex;
-   padding-top: 50px; 
-   align-items: center;
-   justify-content: center;
-   border-top: 1px solid black;
+.conlogos {
+  text-align: center;
+  /* display: block; */
 }
 
+@media screen and (max-width:320px) {
+  body {
+    display: block;
+  }
+}
 
 @media screen and (max-width:700px) {
   .toggle-button {
